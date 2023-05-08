@@ -1,0 +1,28 @@
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.header_info {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.logo_img img {
+  width: 100%;
+}
+.logo_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fe8a00;
+}
+.logo_title .logo_title_slice {
+  color: #f61b5a;
+}
+.header .login .login-icon {
+  padding: 30px;
+}

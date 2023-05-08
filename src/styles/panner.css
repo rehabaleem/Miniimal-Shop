@@ -1,0 +1,131 @@
+@media (max-width: 992px) {
+  .panner_icons1,
+  .panner_icons2,
+  .panner_img1 {
+    display: none;
+  }
+  .panner_img2 {
+    visibility: hidden;
+  }
+}
+@media (max-width: 1024px) {
+  .panner_icons1,
+  .panner_icons2 {
+    display: none;
+  }
+}
+.panner {
+  background-color: #fe8a00;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.panner_info {
+  width: 367.91px;
+  height: 101.11px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.panner_icons1 {
+  position: relative;
+}
+.panner_icons1--1 {
+  position: absolute;
+  top: 60%;
+}
+.panner_icons1--2 {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.panner_icons1--3 {
+  position: absolute;
+  left: 80%;
+  top: 55%;
+}
+.panner_icons1--4 {
+  position: absolute;
+  left: 0;
+  bottom: 60%;
+}
+.panner_icons1--5 {
+  position: absolute;
+  right: 0;
+  top: 70%;
+}
+.panner_icons1--6 {
+  position: absolute;
+
+  top: 80%;
+}
+
+.panner_icons1--9 {
+  position: absolute;
+  top: 20%;
+}
+
+.panner_icons1--10 {
+  position: absolute;
+}
+
+.panner_icons2 {
+  position: relative;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 40%;
+}
+.panner_icons2--1 {
+  position: absolute;
+  top: 60%;
+}
+.panner_icons2--2 {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.panner_icons2--3 {
+  position: absolute;
+  left: 80%;
+  top: 55%;
+}
+.panner_icons2--4 {
+  position: absolute;
+  left: 0;
+  bottom: 60%;
+}
+.panner_icons2--5 {
+  position: absolute;
+  right: 0;
+  top: 70%;
+}
+.panner_icons2--6 {
+  position: absolute;
+
+  top: 80%;
+}
+
+.panner_icons2--9 {
+  position: absolute;
+  top: 20%;
+}
+
+.panner_icons2--10 {
+  position: absolute;
+}
+.panner_img2 {
+  transform: scaleX(-1);
+}

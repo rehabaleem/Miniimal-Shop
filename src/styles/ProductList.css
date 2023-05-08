@@ -1,0 +1,33 @@
+.productList_title {
+  text-align: center;
+}
+.productList_container {
+  width: 100%;
+  align-self: center;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.see-more {
+  width: 168.67px;
+  height: 36.4px;
+  background: #ffffff;
+  border-radius: 31.5px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 5px;
+}
+.see-more__btn {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+  text-decoration: none;
+  color: #f61b5a;
+}
